@@ -35,7 +35,7 @@ namespace k230_models {
 
     function clean_data()
     {
-        datax=datay=dataw=datah=id=degrees=score=0
+        datax=datay=dataw=datah=id=degrees=score=-1
         class_num =0
         msg = ''
         name= ''
@@ -177,7 +177,7 @@ namespace k230_models {
         let h = -1
         if((class_num <=11 )||( class_num ==14)||(class_num == 15))
         {
-            h = dataw 
+            h = datah 
         }
         return h
 

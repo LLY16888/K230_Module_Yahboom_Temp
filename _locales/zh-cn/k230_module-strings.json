@@ -2,21 +2,36 @@
   "k230_models|block":"K230视觉模块",
   "{id:category}k230_models":"K230视觉模块",
   "k230_models.initialization|block":"串口初始化",
-  "k230_models.color_reg_X|block":"X轴",
-  "k230_models.color_reg_W|block":"宽度",
-  "k230_models.color_reg_Y|block":"Y轴",
-  "k230_models.color_reg_H|block":"高度",
-  "k230_models.Barcode_Sensor|block":"条形码检测",
-  "k230_models.QRcode_Sensor|block":"二维码检测",
-  "k230_models.Apriltag_Sensor|block":"机器码检测",
-  "k230_models.face_reg|block":"人脸识别",
-  "k230_models.object_detect|block":"物体检测",
-  "k230_models.self_learning|block":"自主学习检测",
-  "k230_models.handwriting_number|block":"手写数字",
-  "k230_models.Color_Sensor|block":"颜色识别",
-  "k230_models.Apriltag_id|block":"机器码id",
-  "k230_models.face_mask_detect|block":"口罩检测",
-  "k230_models.face_detect|block":"人脸检测"
+  "k230_models.setRXbuffSize|block":"设置串口接收缓存器长度 |长度大小 %size",
+  "k230_models.setTXbuffSize|block":"设置串口发送缓存器长度 |长度大小 %size",
+  "k230_models.mySerial_Deal|block":"接收并分析串口数据",
+  "k230_models.color_reg_X|block":"识别框X轴坐标",
+  "k230_models.color_reg_Y|block":"识别框Y轴坐标",
+  "k230_models.color_reg_W|block":"识别框的宽度大小",
+  "k230_models.color_reg_H|block":"识别框的高度大小",
+  "k230_models.Barcode_Sensor|block":"获取条形码识别结果",
+  "k230_models.QRcode_Sensor|block":"获取二维码识别结果",
+  "k230_models.Apriltag_Sensor_ID|block":"获取机器码ID",
+  "k230_models.Apriltag_Sensor_Degrees|block":"获取机器码识别角度",
+  "k230_models.DM_Sensor_Msg|block":"获取DM码识别结果",
+  "k230_models.DM_Sensor_Degrees|block":"获取DM码识别角度",
+  "k230_models.face_reg_name|block":"获取人脸识别的名字",
+  "k230_models.face_reg_score|block":"获取人脸识别置信度分数",
+  "k230_models.falldown_detect_msg|block":"获取人体状态信息",
+  "k230_models.falldown_detect_score|block":"获取人体状态置信度分数",
+  "k230_models.gesture_detect|block":"获取手势识别结果",
+  "k230_models.OCRChar_detect|block":"获取OCR字符结果",
+  "k230_models.Object_detect|block":"获取物体检测结果",
+  "k230_models.self_learning_category|block":"自主学习识别信息",
+  "k230_models.self_learning_score|block":"自主学习识别分数",
+  "k230_models.licence_rec|block":"车牌识别结果"
+
+
+
+
+
+
+
 
   
 
