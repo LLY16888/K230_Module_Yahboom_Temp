@@ -407,14 +407,12 @@ namespace k230_models {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=30
     export function licence_rec():string{
         let licencemsg = "-1"
-        if(class_num == 16)
+        if(class_num == 17)
         {
             licencemsg = msg
         }
         return licencemsg
     }
-
-
 
 
 
