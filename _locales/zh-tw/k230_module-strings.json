@@ -1,0 +1,25 @@
+{
+  "k230_models|block":"k230視覺模塊",
+  "{id:category}k230_models":"k230視覺模塊",
+  "k230_models.face_detect|block":"人臉檢測",
+  "k230_models.initialization|block":"串口初始化",
+  "k230_models.color_reg_X|block":"X軸",
+  "k230_models.color_reg_W|block":"寬度",
+  "k230_models.color_reg_Y|block":"Y軸",
+  "k230_models.color_reg_H|block":"高度",
+  "k230_models.Barcode_Sensor|block":"條形碼檢測",
+  "k230_models.QRcode_Sensor|block":"二维码检测",
+  "k230_models.Apriltag_Sensor|block":"機器碼檢測",
+  "k230_models.face_reg|block":"人臉識別",
+  "k230_models.object_detect|block":"物體檢測",
+  "k230_models.self_learning|block":"自主學習檢測",
+  "k230_models.handwriting_number|block":"手寫數字",
+  "k230_models.Color_Sensor|block":"顔色識別",
+  "k230_models.Apriltag_id|block":"機器碼id",
+  "k230_models.face_mask_detect|block":"口罩檢測"
+  
+  
+
+}
+
+

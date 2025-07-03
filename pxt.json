@@ -1,0 +1,20 @@
+{
+    "name": "k230_module",
+    "version": "0.0.1",
+    "description": "Extension for YahBoom k230_module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh-cn/k230_module-strings.json",
+        "_locales/zh-tw/k230_module-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}

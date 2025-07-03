@@ -1,0 +1,25 @@
+{
+  "k230_models|block":"K230视觉模块",
+  "{id:category}k230_models":"K230视觉模块",
+  "k230_models.initialization|block":"串口初始化",
+  "k230_models.color_reg_X|block":"X轴",
+  "k230_models.color_reg_W|block":"宽度",
+  "k230_models.color_reg_Y|block":"Y轴",
+  "k230_models.color_reg_H|block":"高度",
+  "k230_models.Barcode_Sensor|block":"条形码检测",
+  "k230_models.QRcode_Sensor|block":"二维码检测",
+  "k230_models.Apriltag_Sensor|block":"机器码检测",
+  "k230_models.face_reg|block":"人脸识别",
+  "k230_models.object_detect|block":"物体检测",
+  "k230_models.self_learning|block":"自主学习检测",
+  "k230_models.handwriting_number|block":"手写数字",
+  "k230_models.Color_Sensor|block":"颜色识别",
+  "k230_models.Apriltag_id|block":"机器码id",
+  "k230_models.face_mask_detect|block":"口罩检测",
+  "k230_models.face_detect|block":"人脸检测"
+
+  
+
+}
+
+
