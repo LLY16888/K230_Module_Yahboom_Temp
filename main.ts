@@ -68,7 +68,7 @@ namespace k230_models {
         // 重建帧（添加$前缀）
         opo = "$" + frameData;
 
-        serial.writeLine("" +opo)
+        //serial.writeLine("" +opo)
         
         length = opo.length
         if (opo[0] != "$") 
