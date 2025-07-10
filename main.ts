@@ -40,6 +40,7 @@ namespace k230_models {
         msg = ''
         name= ''
         category=''
+        serial.readString();  // 清空串口缓冲区
     }
 
     //% blockId=mySerial_Deal block="Serial Data Deal"
@@ -49,8 +50,26 @@ namespace k230_models {
     {
         let length = 0
         let opo = ""
+        //let rawData = ""
         let numdata: string[]
-        opo = serial.readUntil(serial.delimiters(Delimiters.Hash))
+        let rawData = serial.readUntil(serial.delimiters(Delimiters.Hash))
+
+        let dollarParts = rawData.split("$");
+
+        // 验证是否找到有效帧
+        if (dollarParts.length < 2) {
+            clean_data();
+            return;
+        }
+
+        // 提取最后一个$之后的部分
+        let frameData = dollarParts[dollarParts.length - 1];
+    
+        // 重建帧（添加$前缀）
+        opo = "$" + frameData;
+
+        serial.writeLine("" +opo)
+        
         length = opo.length
         if (opo[0] != "$") 
         {
@@ -59,7 +78,8 @@ namespace k230_models {
             return
         }
 
-        numdata = _py.py_string_split(opo.slice(1, length), ",")
+        //numdata = _py.py_string_split(opo.slice(1, length), ",")
+        numdata = opo.slice(1).split(",")
         const dataLength = parseInt(numdata[0]) 
 
         class_num = parseInt(numdata[1]) 
@@ -123,6 +143,7 @@ namespace k230_models {
             
         }
        opo = '' //最后清空下信息
+       serial.readString();  // 清空串口缓冲区
 
     }
 
