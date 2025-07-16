@@ -292,9 +292,61 @@ namespace k230_models {
 
     }
 
+    //% blockId=Human_Gaze_Direction_StartX block="Human Gaze StartX return"
+    //% weight=100
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=30
+    export function Human_Gaze_Direction_StartX(): number {
+        let Human_Gaze_StartX = -1
+        if(class_num == 7)
+        {
+            Human_Gaze_StartX = datax
+        }
+        return Human_Gaze_StartX
 
+    }
 
+    //% blockId=Human_Gaze_Direction_StartY block="Human Gaze StartY return"
+    //% weight=100
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=30
+    export function Human_Gaze_Direction_StartY(): number {
+        let Human_Gaze_StartY = -1
+        if(class_num == 7)
+        {
+            Human_Gaze_StartY = datay
+        }
+        return Human_Gaze_StartY
 
+    }
+
+    //% blockId=Human_Gaze_Direction_endX block="Human Gaze endX return"
+    //% weight=100
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=30
+    export function Human_Gaze_Direction_endX(): number {
+        let Human_Gaze_endx = -1
+        if(class_num == 7)
+        {
+            Human_Gaze_endx = dataw
+        }
+        return Human_Gaze_endx
+
+    }
+
+    //% blockId=Human_Gaze_Direction_endY block="Human Gaze endY return"
+    //% weight=100
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=30
+    export function Human_Gaze_Direction_endY(): number {
+        let Human_Gaze_endx = -1
+        if(class_num == 7)
+        {
+            Human_Gaze_endx = datah
+        }
+        return Human_Gaze_endx
+
+    }
 
     //% blockId=face_reg_name block="face name return"
     //% weight=100
